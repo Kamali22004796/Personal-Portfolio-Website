@@ -56,8 +56,8 @@ I am a passionate software developer and engineer specializing in **Web Developm
 
 ##  Let's Connect!
 
-* **LinkedIn:** [Your LinkedIn Profile](https://linkedin.com/in/yourusername)
-* **Email:** [your.email@example.com](mailto:your.email@example.com)
-* **Portfolio:** [Link to your live portfolio if available](https://yourportfolio.com)
+* **LinkedIn:** https://www.linkedin.com/in/kamali-e-7a9692268/
+* **Email:** Kamalie092005@gmail.com
+* **Portfolio:** 
 
 *“An engineer is a person who uses scientific knowledge to solve practical problems.”* 💻✨
