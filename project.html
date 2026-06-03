@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Kamali</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f5f5f5;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Navbar */
+        .navbar {
+            display: flex;
+            justify-content: flex-end;
+            padding: 20px 40px;
+            background: white;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            position: sticky;
+            top: 0;
+            z-index: 10;
+        }
+
+        .navbar a {
+            margin-left: 20px;
+            padding: 10px 20px;
+            background: #111111;
+            color: #fff;
+            border-radius: 20px;
+            font-size: 16px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: 0.3s;
+        }
+
+        .navbar a:hover {
+            background: #333;
+        }
+
+        /* Project Container */
+        .project-container {
+            width: 80%;
+            margin: 50px auto;
+            background: #ffffff;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.08);
+        }
+
+        .title {
+            font-size: 28px;
+            font-weight: bold;
+            margin-top: 40px;
+            margin-bottom: 10px;
+            color: #222;
+        }
+
+        .description {
+            font-size: 16px;
+            line-height: 1.6;
+            margin-bottom: 20px;
+            color: #444;
+        }
+
+        .file-box {
+            border: 2px dashed #ccc;
+            padding: 20px;
+            border-radius: 10px;
+            background: #fafafa;
+            margin-bottom: 40px;
+        }
+
+        .file-box p {
+            margin: 0;
+            font-size: 16px;
+            color: #333;
+            font-weight: bold;
+        }
+
+        .pdf-link {
+            display: block;
+            margin-top: 10px;
+            color: #000;
+            font-weight: 600;
+            text-decoration: none;
+        }
+
+        .github-link {
+            display: block;
+            margin-top: 10px;
+            color: #1a73e8;
+            font-weight: 600;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <div class="navbar">
+        <a href="index.html">Home</a>
+        <a href="project.html">Project</a>
+        <a href="contact.html">Contact</a>
+    </div>
+
+    <!-- Projects Section -->
+    <div class="project-container">
+
+        <!-- Project 1 -->
+        <p class="title"> Smart Wastewater pH Monitoring and Alert System</p>
+
+        <p class="description">
+            Household wastewater is collected into a tank where chemicals are automatically added to balance the pH level between 6 and 7.5. A pH sensor placed in the drainage monitors the disposed water in real time. If the pH goes below 6 or above 7.5, an instant alert is sent to the house owner via the Blynk mobile app. This prevents water pollution in nearby water bodies and the treated water can be reused for plants, toilets, and other household purposes.
+            Tech Stack: ESP32 · pH Sensors · Blynk App · Python · IoT
+        </p>
+
+        <div class="file-box">
+            <p>Project Files (PDF): Wastewater_pH_Monitoring_Report</p>
+            <a class="pdf-link" href="Wastewater_pH_Monitoring_Report.pdf" download>
+                Download PDF
+            </a>
+
+            <p style="margin-top:15px;">GitHub Link:</p>
+            <a class="github-link"
+               href="https://github.com/Kamali22004796/Smart-Wastewater-pH-Monitoring-and-Alert-System.git"
+               target="_blank">
+                Open GitHub Repository
+            </a>
+        </div>
+
+        <!-- Project 2 -->
+        <p class="title">Bitcoin Price Prediction Web Application</p>
+
+        <p class="description">
+            Many people invest in Bitcoin without proper knowledge of price trends. This web application allows users to enter any date — past or future — and get an approximate predicted Bitcoin price. Built using machine learning models including Linear Regression, Random Forest, and LSTM trained on historical Bitcoin data, with an interactive Streamlit interface for easy use.
+            Tech Stack: Python · Scikit-learn · Pandas · LSTM · Streamlit
+        </p>
+
+        <div class="file-box">
+            <p>Project Files (PDF):Bitcoin_Price_Prediction_Report</p>
+            <a class="pdf-link" href="Bitcoin_Price_Prediction_Report.pdf" download>
+                Download PDF
+            </a>
+
+            <p style="margin-top:15px;">GitHub Link:</p>
+            <a class="github-link"
+               href="https://github.com/Kamali22004796/Bitcoin-Price-Prediction-Web-Application.git"
+               target="_blank">
+                Open GitHub Repository
+            </a>
+        </div>
+
+        <!-- Project 3 -->
+        <p class="title">Personal Portfolio Websites</p>
+
+        <p class="description">
+            A fully responsive multi-page personal portfolio website built from scratch using HTML, CSS, and JavaScript. Includes a home page with skills and introduction, a projects page showcasing real-world work, and a contact page with a message form. Hosted live on GitHub Pages.
+            Tech Stack: HTML · CSS · JavaScript · GitHub Pages
+        </p>
+
+        <div class="file-box">
+            <p>Project Files (PDF):</p>
+            <a class="pdf-link" href="Portfolio_Project_Report.pdf" download>
+                Download PDF
+            </a>
+
+            <p style="margin-top:15px;">GitHub Link:</p>
+            <a class="github-link"
+               href="https://github.com/Kamali22004796/Personal-Portfolio-Website.git"
+               target="_blank">
+                Open GitHub Repository
+            </a>
+        </div>
+
+    </div>
+
+</body>
+</html>
